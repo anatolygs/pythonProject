@@ -17,4 +17,3 @@ if int(a) <= int(b):
 else:
     for i in range(int(a), int(b) - 1, -1):
         print(i)
-
