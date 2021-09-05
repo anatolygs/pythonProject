@@ -9,11 +9,16 @@
 # for i in range(int(a),int(b)):
 #     print(i)
 
-a = input('enter a: ')
-b = input('enter b: ')
-if int(a) <= int(b):
-    for i in range(int(a), int(b) + 1):
-        print(i)
-else:
-    for i in range(int(a), int(b) - 1, -1):
-        print(i)
+# a = input('enter a: ')
+# b = input('enter b: ')
+# if int(a) <= int(b):
+#     for i in range(int(a), int(b) + 1):
+#         print(i)
+# else:
+#     for i in range(int(a), int(b) - 1, -1):
+#         print(i)
+a=int(19)
+b=int(1)
+print(a - (a + 1)%2)
+for i in range(a - (a + 1) % 2, b - b % 2, -2):
+    print(i, end=' ')
