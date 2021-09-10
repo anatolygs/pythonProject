@@ -1,6 +1,9 @@
-age = int(input('input you age: '))
+def test(x, y):
+   for i in range(y):
+      print(x + i)
 
-if age >= 18:
-    print('Welcome')
-else:
-    print('вернитесь через ', 18 - age,' лет')
+
+
+print(test(3, 2))
+print(test(2, 4))
+

@@ -21,8 +21,7 @@
 
 s = 'Hello world!'
 for i in s:
-    if i == "":
-        s = s.lower()
+    if i == " ":
+        print(s.upper())
     else:
-        s = s.upper()
-print(s)
+        print(s.lower())
