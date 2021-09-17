@@ -48,16 +48,16 @@
 #
 # print(func(6))
 
-def get_names(names):
-    new_names = []
-    for i in names:
-        if len(i) == 4:
-            new_names.append(i)
-    return new_names
-
-
-
-names = ['Rayan', 'Sema', 'Kieran', 'Mark', 'Anna', 'David', 'Paul', 'Abba']
+# def get_names(names):
+#     new_names = []
+#     for i in names:
+#         if len(i) == 4:
+#             new_names.append(i)
+#     return new_names
+#
+#
+#
+# names = ['Rayan', 'Sema', 'Kieran', 'Mark', 'Anna', 'David', 'Paul', 'Abba']
 
 print(get_names(names))
 
