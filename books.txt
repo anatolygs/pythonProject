@@ -1,0 +1,24 @@
+test
+AOC
+Flicker FREE
+iPhone
+shnur.py
+books.txt
+time.py
+tuple.py
+list.py
+def.py
+game-1.py
+test.py
+file.py
+if_2.py
+for.py
+venv
+.git
+main.py
+set.py
+domashka.py
+parta.py
+intensiv.py
+.idea
+if.py
