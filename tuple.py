@@ -1,8 +1,6 @@
 worlds = ['мадам', 'топот', 'test', 'madam', 'word']
 my_str = ['Око за око', 'Ароза упала на лапу Азора', 'Около миши молоко']
 
-# p1 = [i for i in worlds if i == i[::-1]]
-# print(p1)
 
 new_worlds = []
 for i in range(len(worlds)):

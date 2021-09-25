@@ -59,7 +59,7 @@
 #
 # names = ['Rayan', 'Sema', 'Kieran', 'Mark', 'Anna', 'David', 'Paul', 'Abba']
 
-print(get_names(names))
+# print(get_names(names))
 
 # def odd_ball(arr):
 #     x = arr.index('odd')
@@ -86,4 +86,22 @@ print(get_names(names))
 #
 # print(find_sum(500000000))
 
+import os
+
+def catalog(arg):
+    # dir1 = arg
+    num = 0
+    for i in os.walk(arg):
+        num += 1
+        print(num, i[0], file=file)
+        for k in i[1]:
+            print('\t', k, file=file)
+            for l in i[2]:
+                print('\t'*2, l, file=file)
+
+file = open('out.txt', 'a+')
+
+catalog('/Users/anatoly/Desktop/маленькая черная рабочая')
+# print(catalog('/Users/anatoly/'), file=file)
+file.close()
 
